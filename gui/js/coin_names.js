@@ -115,6 +115,10 @@ function return_coin_details(coin) {
 			coin_details.name = 'e-Gulden';
 			coin_details.explorer = 'https://chainz.cryptoid.info/efl/tx.dws?';
 			break;
+		case 'ESP':
+			coin_details.name = 'Espers';
+			coin_details.explorer = 'http://esp.miningalts.com/tx/';
+			break;
 		case 'GLT':
 			coin_details.name = 'GlobalToken';
 			coin_details.explorer = 'https://explorer.globaltoken.org/tx/';
